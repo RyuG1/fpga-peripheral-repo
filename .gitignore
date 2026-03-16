@@ -1,0 +1,107 @@
+# ===== General =====
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Quartus =====
+db/
+incremental_db/
+greybox_tmp/
+simulation/
+output_files/
+
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.pin
+*.jdi
+*.sof
+*.pof
+*.jam
+*.jbc
+*.ekp
+*.map.*
+*.fit.*
+*.sta.*
+*.done
+*.qdf
+*.qar
+
+# ===== ModelSim / Questa =====
+transcript
+vsim.wlf
+work/
+modelsim.ini
+*.vcd
+*.wlf
+
+# ===== Artifacts =====
+rtl/artifacts/
+
+# ===== Optional local tool files =====
+*.hex
+*.mif
+=======
+# Quartus generated databases
+db/
+incremental_db/
+
+# Output files
+output_files/
+
+# Common Quartus reports and generated files
+*.rpt
+*.summary
+*.smsg
+*.done
+*.dpf
+*.log
+*.bak
+
+# Keep timing constraints
+!*.sdc
+
+# Programming / compilation outputs
+*.sof
+*.pof
+*.jam
+*.jbc
+*.ekp
+*.hex
+*.ttf
+*.rbf
+
+# Compilation stage byproducts
+*.map
+*.fit
+*.sta
+*.asm
+*.pin
+
+# Quartus workspace / archive
+*.qws
+*.qar
+*.qws
+*.cdf
+
+# Simulation generated files
+transcript
+vsim.wlf
+*.vcd
+*.wlf
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+
+# MegaWizard docs/previews
+*.html
+*.jpg
+*.cmp
