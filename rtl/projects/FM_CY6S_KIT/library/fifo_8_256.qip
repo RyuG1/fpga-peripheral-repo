@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+set_global_assignment -name IP_TOOL_NAME "FIFO"
+set_global_assignment -name IP_TOOL_VERSION "9.1"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "fifo_8_256.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fifo_8_256.cmp"]
+=======
+set_global_assignment -name IP_TOOL_NAME "FIFO"
+set_global_assignment -name IP_TOOL_VERSION "9.1"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "fifo_8_256.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fifo_8_256.cmp"]
+>>>>>>> 3de807a8631c185695a645c74706bf840139402c
